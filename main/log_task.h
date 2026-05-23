@@ -17,6 +17,6 @@ typedef struct{
 
 void LogTask(void *pvParameters);
 
-void log_t(const char *msg);
+void log_t(const char *msg,...);
 
 #endif
