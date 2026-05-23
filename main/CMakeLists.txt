@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "system_init.c"
+        "log_task.c"
+        "IMU_task.c"
+    INCLUDE_DIRS
+        "."
+)
